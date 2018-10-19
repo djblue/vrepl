@@ -2,6 +2,8 @@
 
 Bootstrap vim with a clojure nrepl session.
 
+[![asciicast](https://asciinema.org/a/207497.png)](https://asciinema.org/a/207497)
+
 ## dependencies 
 
 - [clojure 1.9+](https://clojure.org/guides/getting_started)
