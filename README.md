@@ -7,7 +7,6 @@ Bootstrap vim with a clojure nrepl session.
 ## dependencies 
 
 - [clojure 1.9+](https://clojure.org/guides/getting_started)
-- vim with support for [`--servername`](http://vimdoc.sourceforge.net/htmldoc/remote.html)
 - [fireplace.vim](https://github.com/tpope/vim-fireplace)
 
 ## setup
@@ -19,7 +18,7 @@ In `$HOME/.clojure/deps.edn`, add a new alias:
 {:vrepl {:main-opts ["-m vrepl.core"]
          :extra-deps
          {vrepl {:git/url "https://github.com/djblue/vrepl.git"                                        
-                 :sha "2214f7dff0fbe681186d573846c0b51b2efbdc3e"}}}}
+                 :sha "ecca2790b2079edaee0110d39cde46d7c771f9fd"}}}}
 ```
 
 then run:
