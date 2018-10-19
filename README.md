@@ -2,6 +2,12 @@
 
 Bootstrap vim with a clojure nrepl session.
 
+## dependencies 
+
+- [clojure 1.9+](https://clojure.org/guides/getting_started)
+- vim with support for [`--servername`](http://vimdoc.sourceforge.net/htmldoc/remote.html)
+- [fireplace.vim](https://github.com/tpope/vim-fireplace)
+
 ## setup
 
 In `$HOME/.clojure/deps.edn`, add a new alias:
