@@ -7,7 +7,13 @@ Bootstrap vim with a clojure nrepl session.
 ## dependencies 
 
 - [clojure 1.9+](https://clojure.org/guides/getting_started)
-- [fireplace.vim](https://github.com/tpope/vim-fireplace)
+- [tpope/fireplace.vim](https://github.com/tpope/vim-fireplace)
+
+## recommended plugins
+
+- [luochen1990/rainbow](https://github.com/luochen1990/rainbow)
+- [vim-scripts/paredit.vim](https://github.com/vim-scripts/paredit.vim)
+- [venantius/vim-cljfmt](https://github.com/venantius/vim-cljfmt)
 
 ## setup
 
