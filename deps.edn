@@ -1,3 +1,4 @@
-{:deps
+{:paths ["src"]
+ :deps
  {cljfmt {:mvn/version "0.5.7"}
   org.clojure/tools.nrepl {:mvn/version "0.2.12"}}}
