@@ -12,6 +12,7 @@ Bootstrap vim with a clojure nrepl session.
 - [luochen1990/rainbow](https://github.com/luochen1990/rainbow)
 - [vim-scripts/paredit.vim](https://github.com/vim-scripts/paredit.vim)
 - [venantius/vim-cljfmt](https://github.com/venantius/vim-cljfmt)
+- [ervandew/supertab](https://github.com/ervandew/supertab)
 
 ## setup
 
