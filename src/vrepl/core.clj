@@ -19,7 +19,7 @@
   (let [vi (if (has-bin? "mvim") ["mvim" "-f"] ["vim"])
         port (:port (nrepl/start-server))
         ex ["+set ft=clojure"
-            (str "+Connect nrepl://localhost:" port " .")
+            (str "+Connect localhost:" port " .")
             "+insert"]
         ps (apply sh (concat vi ex args))]
     (System/exit (.waitFor ps))))
