@@ -28,8 +28,23 @@ In `$HOME/.clojure/deps.edn`, add a new alias:
 
 then run:
 
-    clojure -Avrepl
+
+```bash
+clojure -Avrepl
+```
+
+If you want to include the current directoy in your class path, do:
+
+```bash
+clojure -Sdeps '{:paths ["."]}' -Avrepl
+```
 
 You should be put into a new empty vim window in a clojure buffer with a
 connected nrepl session. Any additional arguments will be passed directly
 to vim, so you can pass files you want to open as well.
+
+To setup a shell alias for vrepl, do:
+
+```bash
+alias vrepl="clojure -Sdeps '{:paths [\".\"]}' -Avrepl-dev"
+```
