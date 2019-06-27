@@ -1,7 +1,8 @@
 (ns vrepl.core
   (:require [clojure.string :as s]
             [clojure.java.io :as io]
-            [nrepl.server :as nrepl]))
+            [nrepl.server :as nrepl]
+            clojure.repl))
 
 (defn sh [& args]
   (let [ps (.. (ProcessBuilder. args) inheritIO start)]
