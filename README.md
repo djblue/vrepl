@@ -20,7 +20,7 @@ In `$HOME/.clojure/deps.edn`, add a new alias:
 
 ```clojure
 :aliases
-{:vrepl {:main-opts ["-m vrepl.core"]
+{:vrepl {:main-opts ["-m" "vrepl.core"]
          :extra-deps
          {vrepl {:git/url "https://github.com/djblue/vrepl.git"                                        
                  :sha "cc7f140869ce3ab8602e289248226a9b2b247943"}}}}
